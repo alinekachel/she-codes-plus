@@ -1,0 +1,80 @@
+body {
+  font-family: "Baloo Chettan 2", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web", cursive;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+form {
+  display: inline;
+  width: 30%;
+}
+
+.card {
+  padding: 15px;
+  margin: 15px;
+  border-width: 4px;
+}
+.search {
+  width: 30%;
+  padding: 35px 15px;
+}
+.menu {
+  display: inline-block;
+  width: 25%;
+}
+.full-page {
+  display: block;
+  margin: auto;
+  width: 700px;
+  padding: 15px;
+  background-color: #eeeeee;
+  border-color: #777777;
+  border-width: 3px;
+}
+.header-block {
+  background-color: #d4004d;
+  color: #fff;
+  padding: 35px 15px;
+}
+.interactive {
+  padding: 25px 10px;
+  size: 100% 20%;
+}
+
+.btn-primary {
+  background-color: #eeeeee;
+  border-color: #d4004d;
+  color: #d4004d;
+  margin: 0;
+  width: 50px;
+}
+.btn-primary:hover {
+  background-color: #d4004d;
+  border-color: #d4004e8a;
+}
+.btn-primary:active {
+  background-color: #d4004d;
+  border-color: #d4004e8a;
+  box-shadow: 0 0 0 0.25rem #d4004e8a;
+}
+.btn-primary:focus {
+  background-color: #d4004d;
+  border-color: #d4004e8a;
+  box-shadow: 0 0 0 0.25rem #d4004e8a;
+}
+.daily-weather {
+  background-color: #fff;
+  color: #777777;
+  font-size: 18px;
+}
